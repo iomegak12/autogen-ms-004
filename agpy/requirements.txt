@@ -1,0 +1,10 @@
+autogen
+autogen-agentchat
+autogen-ext[openai,azure,chromadb]
+ipykernel
+python-dotenv
+openai
+
+sqlalchemy
+
+chromadb

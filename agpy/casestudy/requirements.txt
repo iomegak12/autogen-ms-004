@@ -1,0 +1,11 @@
+autogen
+autogen-agentchat
+autogen-ext[openai,azure]
+ipykernel
+python-dotenv
+openai
+
+fastapi
+uvicorn
+aiohttp
+streamlit

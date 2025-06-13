@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  agpy:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

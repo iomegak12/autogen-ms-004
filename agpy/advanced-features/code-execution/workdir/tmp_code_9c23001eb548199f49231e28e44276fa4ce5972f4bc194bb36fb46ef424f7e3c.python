@@ -1,0 +1,11 @@
+
+import os
+def list_files(directory):
+    try:
+        files = os.listdir(directory)
+        return files
+    except Exception as e:
+        return str(e)
+files = list_files("/workdir") 
+print(files)
+        

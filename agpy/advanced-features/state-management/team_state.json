@@ -1,0 +1,57 @@
+{
+    "agent_states": {
+        "Assistant": {
+            "agent_state": {
+                "llm_context": {
+                    "messages": [
+                        {
+                            "content": "Tell me a surprising fun fact about Octopuses.",
+                            "source": "user",
+                            "type": "UserMessage"
+                        },
+                        {
+                            "content": "One surprising fun fact about octopuses is that they have three hearts! Two of the hearts pump blood to the gills, where it’s oxygenated, and the third heart pumps the oxygen-rich blood to the rest of the body. Interestingly, when they swim, the heart that delivers blood to the body actually stops beating, which is why these intelligent creatures prefer to crawl rather than swim—they want to conserve energy!",
+                            "source": "Assistant",
+                            "thought": null,
+                            "type": "AssistantMessage"
+                        }
+                    ]
+                },
+                "type": "AssistantAgentState",
+                "version": "1.0.0"
+            },
+            "message_buffer": [],
+            "type": "ChatAgentContainerState",
+            "version": "1.0.0"
+        },
+        "RoundRobinGroupChatManager": {
+            "current_turn": 0,
+            "message_thread": [
+                {
+                    "content": "Tell me a surprising fun fact about Octopuses.",
+                    "created_at": "2025-06-13 20:23:56.650741+00:00",
+                    "metadata": {},
+                    "models_usage": null,
+                    "source": "user",
+                    "type": "TextMessage"
+                },
+                {
+                    "content": "One surprising fun fact about octopuses is that they have three hearts! Two of the hearts pump blood to the gills, where it’s oxygenated, and the third heart pumps the oxygen-rich blood to the rest of the body. Interestingly, when they swim, the heart that delivers blood to the body actually stops beating, which is why these intelligent creatures prefer to crawl rather than swim—they want to conserve energy!",
+                    "created_at": "2025-06-13 20:24:00.104792+00:00",
+                    "metadata": {},
+                    "models_usage": {
+                        "completion_tokens": 85,
+                        "prompt_tokens": 33
+                    },
+                    "source": "Assistant",
+                    "type": "TextMessage"
+                }
+            ],
+            "next_speaker_index": 0,
+            "type": "RoundRobinManagerState",
+            "version": "1.0.0"
+        }
+    },
+    "type": "TeamState",
+    "version": "1.0.0"
+}
